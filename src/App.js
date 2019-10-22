@@ -2,7 +2,7 @@ import React from "react";
 import CanvasEditor from "./CanvasEditor";
 import Header from "./Header";
 import "./App.css";
-import SVGEditor from "./svgEditor";
+import SVGEditor from "./SVGEditor";
 
 export default () => (
   <>
