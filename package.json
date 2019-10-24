@@ -9,13 +9,15 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
+    "reason-react": "^0.7.0",
     "styled-components": "^4.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "reason": "parcel src_reasonml/index.html"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,5 +33,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "bs-platform": "^5.2.1",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "^1.12.4"
   }
 }
